@@ -9,7 +9,7 @@ quizディレクトリ配下の.rbファイルが問題で、answersディレク
 ## 実行の仕方
 
 ```
-ruby -Itest test/実行したいテストファイル
+bundle exec ruby -Itest test/実行したいテストファイル
 ```
 
 もしくは
