@@ -8,9 +8,6 @@ end
 e1 = ExClass.new
 e2 = ExClass.new
 
-def e2.hello
-end
-
 Judgement.call(e1, e2)
 
 # 2. ExClassを継承したクラスを作成してください。ただし、そのクラスは定数がない無名のクラスだとします。
