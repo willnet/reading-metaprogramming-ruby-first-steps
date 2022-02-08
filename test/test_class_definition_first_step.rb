@@ -58,7 +58,7 @@ class TestClassDefinitionFirstStep < MiniTest::Test
 
     meta = MetaClass.new
     meta.meta_hello = 'hello'
-    assert_equal 'meta_hello', meta.meta_hello
+    assert_equal 'meta hello', meta.meta_hello
   end
 
   def test_exconfig
