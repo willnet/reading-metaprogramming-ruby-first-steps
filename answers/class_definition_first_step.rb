@@ -23,7 +23,7 @@ e = Class.new(ExClass)
 Judgement2.call(e)
 
 # 3. 下のMetaClassに対し、次のように`meta_`というプレフィックスが属性名に自動でつき、ゲッターの戻り値の文字列にも'meta 'が自動でつく
-#    attr_accessor、meta_attr_accessorを作ってください。セッターに文字列以外の引数がくることは考えないとします。
+#    attr_accessorのようなメソッドであるmeta_attr_accessorを作ってください。セッターに文字列以外の引数がくることは考えないとします。
 #
 #    使用例:
 #
