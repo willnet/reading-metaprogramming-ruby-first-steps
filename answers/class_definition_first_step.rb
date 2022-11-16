@@ -43,7 +43,7 @@ class MetaClass
       meta_name = "meta_#{name}"
       attr_writer(meta_name)
       define_method(meta_name) do
-        'meta_' + instance_variable_get("@#{meta_name}")
+        'meta ' + instance_variable_get("@#{meta_name}")
       end
     end
   end
